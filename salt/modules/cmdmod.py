@@ -479,7 +479,7 @@ def _run(cmd,
         else:
             # On Windows set the codepage to US English.
             if python_shell:
-                cmd = 'chcp 437 > nul & ' + cmd
+                cmd = 'chcp 936 > nul & ' + cmd
 
     if clean_env:
         run_env = env
